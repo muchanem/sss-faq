@@ -1,5 +1,5 @@
 # sss-faq
-The FAQ website for S3. Developed by the magical [CoderPythonX](https://github.com/tslnc04) and asshole, aka [dfk](https://github.com/donovank).
+The FAQ website for S3. Developed by the magical [@CoderPythonX](https://github.com/tslnc04) and [@dfk](https://github.com/donovank).
 
 ###The Story So far:
 Yeah this is a thing. It exists, and might be worked on.
