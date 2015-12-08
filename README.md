@@ -10,6 +10,7 @@ A basic website detailing frequent problems in coding.
 
 ###The Story of the (near) Future:
 Hopes & Dreams of the future.
-* Make things look nice
+* ~Make things look nice~ **It's okay**
+* Something like a forum or disqus
 * In depth search
 * Way for new problems to be easily appended without changing the source code.
