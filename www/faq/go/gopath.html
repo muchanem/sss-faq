@@ -6,13 +6,15 @@
 <ul>
 <li>Make a file &quot;setup&quot; in the file containing &quot;src&quot;, &quot;pkg&quot;, and &quot;bin&quot;</li>
 <li>Exit it</li>
-<li>Get your current path with <code>pwd</code>, then copy everything that is past your username.
-<strong>EXAMPLE</strong>:
-Lets assume for this example, that your current directory is <code>home/whitman-colm/repos/project/go</code>. Then your setup file should look like:
-<pre><code>export GOPATH=$HOME/<em>repos/project/go</em>
-export PATH=$HOME/<em>repos/project/go</em>/bin:$PATH
+<li>Get your current path with <code>pwd</code>, then copy everything that is past your username.</li>
+</ul>
+<p><strong>EXAMPLE</strong>:
+Lets assume for this example, that your current directory is <code>home/whitman-colm/repos/project/go</code>. Then your setup file should look like:</p>
+<pre><code class="language-shell">export GOPATH=$HOME/*repos/project/go*
+export PATH=$HOME/*repos/project/go*/bin:$PATH
 </code></pre>
-Even if that is not your current working directory, <strong>only change what is italicized!!!</strong></li>
+<p>Even if that is not your current working directory, <strong>only change what is italicized!!!</strong></p>
+<ul>
 <li><code>source setup</code> and you&#39;re good to go!</li>
 </ul>
 <hr>
