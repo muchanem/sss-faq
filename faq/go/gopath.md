@@ -2,6 +2,7 @@
 <br>
 
 ### `$GOPATH` help!
+<br>
 #### FAQ >> Golang >> `$GOPATH` help
 -------------------
 If you've had issues with your go program not finding your modules, it
