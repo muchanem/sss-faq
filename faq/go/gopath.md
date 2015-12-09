@@ -26,5 +26,6 @@ setup your paths and you will be ready.
 <br>
 The file will only work if you have a `go` directory in your `hello`
 repository. If you wanted this to work for `eightball`, you would
-change the `hello`s to `eightball`s. If it is a `go-1` repository,
+change the `hello`s to `eightball`s. Other repositories may be setup
+differently, such as `go-1`. In a `go-1` repository,
 then you would change the `hello`s to `go-1`s and remove the `/go`s.
