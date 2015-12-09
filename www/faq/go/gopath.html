@@ -1,20 +1,25 @@
 <!DOCTYPE html><html><head><link rel="stylesheet" href="/css/bootstrap.css"><link rel="stylesheet" href="/css/solarized-dark.css"><link rel="stylesheet" href="/css/base.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><link rel="stylesheet" href="/css/main.css"><title>SSS | α-S-1.0.2</title></head><body><br><br><ul class="nav nav-pills border"><li><a href="/" class="btn-lg"><i class="fa fa-home"> Home</i></a></li><li><p>&nbsp;&nbsp;&nbsp;&nbsp;</p></li><li><a href="/faq.html" class="btn-lg"><i class="fa fa-question-circle"> FAQ</i></a></li><li><p>&nbsp;&nbsp;&nbsp;&nbsp;</p></li><li><a href="/devs.html" class="btn-lg"><i class="fa fa fa-user"> Developers</i></a></li></ul><br><br><p><br>
 <br></p>
-<h1><code>$GOPATH</code> is broken</h1><hr>
-<p>One of the largest source of errors in GOlang is the stupid gopath. Unless you&#39;re working in your natural gopath and not in a repo, you&#39;re bound to have a lot of problems.</p>
-<h3>Source your gopath:</h3><p>The most common mistake is forgetting to source your gopath &quot;setup&quot; file (<code>source setup</code>). If you don&#39;t have one, here&#39;s the rundown:</p>
-<ul>
-<li>Make a file &quot;setup&quot; in the file containing &quot;src&quot;, &quot;pkg&quot;, and &quot;bin&quot;</li>
-<li>Exit it</li>
-<li>Get your current path with <code>pwd</code>, then copy everything that is past your username.</li>
-</ul>
-<p><strong>EXAMPLE</strong>:
-Lets assume for this example, that your current directory is <code>home/whitman-colm/repos/project/go</code>. Then your setup file should look like:</p>
-<p><pre><code>
-export GOPATH=$HOME/<em>repos/project/go</em>
-export PATH=$HOME/<em>repos/project/go</em>/bin:$PATH
-</code></pre></p>
-<p>Even if that is not your current working directory, <strong>only change what is italicized!!!</strong>
-<code>source setup</code> and you&#39;re good to go!</p>
-<hr>
-<p><em>If you still have problems, feel free to sss the TAs or ask around on the golang forums</em></p><br><br><ul class="nav nav-pills border"><li><a href="/" class="btn-lg"><i class="fa fa-home"> Home</i></a></li><li><p>&nbsp;&nbsp;&nbsp;&nbsp;</p></li><li><a href="/faq.html" class="btn-lg"><i class="fa fa-question-circle"> FAQ</i></a></li><li><p>&nbsp;&nbsp;&nbsp;&nbsp;</p></li><li><a href="/devs.html" class="btn-lg"><i class="fa fa fa-user"> Developers</i></a></li></ul></body></html>
+<h2><code>$GOPATH</code> help!</h2><p><br></p>
+<h4>FAQ &gt;&gt; Golang &gt;&gt; <code>$GOPATH</code> help</h4><hr>
+<p>If you&#39;ve had issues with your go program not finding your modules, it
+probably has to do with your <code>$GOPATH</code>. This is an example of a 
+<code>setup</code> file to keep in your Go repo. It goes where the <code>src</code>, <code>bin</code>,
+and <code>pkg</code> directories are.
+<br></p>
+<pre><code class="language-shell"># remember source me, don&#39;t run me
+
+export GOPATH=$HOME/repos/hello/go
+export PATH=$HOME/repos/hello/go/bin:$PATH
+</code></pre>
+<p><br>
+Now, you might be wondering what <code># remember source me, don&#39;t run me</code>
+means. This means that on the command line, you need to type <code>. setup</code>
+or <code>source setup</code>. It is assumed the file is named <code>setup</code>. It will
+setup your paths and you will be ready.
+<br></p>
+<h4>Bonus</h4><p><br>
+The file will only work if you have a <code>go</code> directory in your <code>hello</code>
+repository. If you wanted this to work for <code>eightball</code>, you would
+change the <code>hello</code>s to <code>eightball</code>s. If it is a <code>go-1</code> repository,
+then you would change the <code>hello</code>s to <code>go-1</code>s and remove the <code>/go</code>s.</p><br><br><ul class="nav nav-pills border"><li><a href="/" class="btn-lg"><i class="fa fa-home"> Home</i></a></li><li><p>&nbsp;&nbsp;&nbsp;&nbsp;</p></li><li><a href="/faq.html" class="btn-lg"><i class="fa fa-question-circle"> FAQ</i></a></li><li><p>&nbsp;&nbsp;&nbsp;&nbsp;</p></li><li><a href="/devs.html" class="btn-lg"><i class="fa fa fa-user"> Developers</i></a></li></ul></body></html>
