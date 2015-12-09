@@ -16,7 +16,7 @@ Lets assume for this example, that your current directory is `home/whitman-colm/
 <pre><code>export GOPATH=$HOME/*repos/project/go*
 export PATH=$HOME/*repos/project/go*/bin:$PATH
 </code></pre>
-Even if that is not your current working directory, **only change what is between the asterisks!!!**
+Even if that is not your current working directory, **only change what is italicized!!!**
 * `source setup` and you're good to go!
 
 ----------
