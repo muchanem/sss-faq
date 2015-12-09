@@ -1,7 +1,7 @@
 <br>
 <br>
 
-### `$GOPATH` help!
+## `$GOPATH` help!
 <br>
 #### FAQ >> Golang >> `$GOPATH` help
 -------------------
