@@ -19,7 +19,7 @@ means. This means that on the command line, you need to type `. setup`
 or `source setup`. It is assumed the file is named `setup`. It will
 setup your paths and you will be ready.
 <br>
-##### Bonus
+#### Bonus
 <br>
 The file will only work if you have a `go` directory in your `hello`
 repository. If you wanted this to work for `eightball`, you would
