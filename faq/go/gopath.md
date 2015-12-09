@@ -8,9 +8,11 @@ One of the largest source of errors in GOlang is the stupid gopath. Unless you'r
 ###Source your gopath:
 The most common mistake is forgetting to source your gopath "setup" file (`source setup`). If you don't have one, here's the rundown:
 
+<pre>
 Make a file "setup" in the file containing "src", "pkg", and "bin"
 Exit it
 Get your current path with `pwd`, then copy everything that is past your username.
+<pre>
 
 **EXAMPLE**:
 Lets assume for this example, that your current directory is `home/whitman-colm/repos/project/go`. Then your setup file should look like:
