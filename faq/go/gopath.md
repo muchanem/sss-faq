@@ -1,29 +1,24 @@
 <br>
 <br>
 
-## `$GOPATH` help!
-<br>
-#### FAQ >> Golang >> `$GOPATH` help
+# `$GOPATH` is broken
 -------------------
-If you've had issues with your go program not finding your modules, it
-probably has to do with your `$GOPATH`. This is an example of a 
-`setup` file to keep in your Go repo.
-<br>
-```shell
-# remember source me, don't run me
+One of the largest source of errors in GOlang is the stupid gopath. Unless you're working in your natural gopath and not in a repo, you're bound to have a lot of problems.
 
-export GOPATH=$HOME/repos/hello/go
-export PATH=$HOME/repos/hello/go/bin:$PATH
-```
-<br>
-Now, you might be wondering what `# remember source me, don't run me`
-means. This means that on the command line, you need to type `. setup`
-or `source setup`. It is assumed the file is named `setup`. It will
-setup your paths and you will be ready.
-<br>
-#### Bonus
-<br>
-The file will only work if you have a `go` directory in your `hello`
-repository. If you wanted this to work for `eightball`, you would
-change the `hello`s to `eightball`s. If it is a `go-1` repository,
-then you would change the `hello`s to `go-1`s and remove the `/go`s.
+###Source your gopath:
+The most common mistake is forgetting to source your gopath "setup" file (`source setup`). If you don't have one, here's the rundown:
+
+* Make a file "setup" in the file containing "src", "pkg", and "bin"
+* Exit it
+* Get your current path with `pwd`, then copy everything that is past your username.
+**EXAMPLE**:
+Lets assume for this example, that your current directory is `home/whitman-colm/repos/project/go`. Then your setup file should look like:
+<pre><code>export GOPATH=$HOME/*repos/project/go*
+export PATH=$HOME/*repos/project/go*/bin:$PATH
+</code></pre>
+Even if that is not your current working directory, **only change what is between the asterisks!!!**
+* `source setup` and you're good to go!
+
+----------
+
+*If you still have problems, feel free to sss the TAs or ask around on the golang forums*
