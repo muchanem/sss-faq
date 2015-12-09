@@ -4,18 +4,22 @@
 <hr>
 <p>If you&#39;ve had issues with your go program not finding your modules, it
 probably has to do with your <code>$GOPATH</code>. This is an example of a 
-<code>setup</code> file to keep in your Go repo.</p>
+<code>setup</code> file to keep in your Go repo.
+<br></p>
 <pre><code class="language-shell"># remember source me, don&#39;t run me
 
 export GOPATH=$HOME/repos/hello/go
 export PATH=$HOME/repos/hello/go/bin:$PATH
 </code></pre>
-<p>Now, you might be wondering what <code># remember source me, don&#39;t run me</code>
+<p><br>
+Now, you might be wondering what <code># remember source me, don&#39;t run me</code>
 means. This means that on the command line, you need to type <code>. setup</code>
 or <code>source setup</code>. It is assumed the file is named <code>setup</code>. It will
-setup your paths and you will be ready.</p>
+setup your paths and you will be ready.
+<br></p>
 <h5 id="bonus">Bonus</h5>
-<p>The file will only work if you have a <code>go</code> directory in your <code>hello</code>
+<p><br>
+The file will only work if you have a <code>go</code> directory in your <code>hello</code>
 repository. If you wanted this to work for <code>eightball</code>, you would
 change the <code>hello</code>s to <code>eightball</code>s. If it is a <code>go-1</code> repository,
 then you would change the <code>hello</code>s to <code>go-1</code>s and remove the <code>/go</code>s.</p>
