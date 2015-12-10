@@ -6,9 +6,9 @@ This is a FAQ website for frequent coding errors and problems. Problem is, we ha
 
 ###The Story of the (near) Future:
 Things planned for next release.
-* More then two articles
+* More then two articles per subject
 
-###The Story of the (near) Future:
+###The Story of the (far) Future:
 Hopes & Dreams of the future.
 * Ticket Integration
 * Pictures?
