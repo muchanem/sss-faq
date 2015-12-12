@@ -10,7 +10,9 @@ to run it. You do this by executing the following commands in the main
 command line.
 
 `chmod u+x file`
+This makes it so the computer knows to run it.
 `file` or `./file`
+This will actually run it.
 <br>
 #### Bonus
 <br>
