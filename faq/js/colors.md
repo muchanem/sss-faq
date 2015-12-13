@@ -5,7 +5,7 @@
 #### FAQ >> JavaScript >> Colors
 ----------------------------
 
-After a while, the gray, default color may get boring. To get the text
+After a while, the gray default color may get boring. To get the text
 colorful, you need to import a module. This is a simple task as done
 below.
 
