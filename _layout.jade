@@ -1,14 +1,13 @@
 doctype
 html
   head
-    - var faqver = "α-S-1.3.4";
     link(rel="stylesheet" href="/css/bootstrap.css")
     link(rel="stylesheet" href="/css/solarized-dark.css")
     link(rel="stylesheet" href="/css/base.css")
     link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
     link(rel="stylesheet" href="/css/main.css")
     link(rel="icon" type="image/png" href="http://skilstak.io/favicon.png")
-    title SSS | #{faqver}
+    title SSS | #{public._data.version}
   body
     br
     br
@@ -36,4 +35,4 @@ html
 
     div.border
       h4 SSS Main: β-S-3.2.0
-      h4 SSS Website: #{faqver}
+      h4 SSS Website: #{public._data.version}
