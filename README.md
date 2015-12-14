@@ -6,7 +6,7 @@ This is currently FAQ website for frequent coding errors and problems. Problem i
 
 ###The Story of the (near) Future:
 Things planned for next release.
-* More then two articles per subject
+* ~More then two articles per subject~ Go is okay, but GAME!!!
 
 ###The Story of the (far) Future:
 Hopes & Dreams of the future.
