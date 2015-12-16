@@ -1,5 +1,5 @@
 # sss-faq
-The FAQ website for [S3](https://github.com/whitman-colm/sss). Developed by the magical [@CoderPythonX (@tslnc04)](https://github.com/tslnc04), Mr. [@jaja](https://github.com/jajaio) and [@dfk](https://github.com/donovank).
+The FAQ website for [S3](https://github.com/whitman-colm/sss). Developed by the magical [@CoderPythonX (@tslnc04)](https://github.com/tslnc04), Mr. [@jaja](https://github.com/jajaio), and [@dfk](https://github.com/donovank).
 
 ###The Story So far:
 This is currently FAQ website for frequent coding errors and problems. Problem is, theres a lot of commmon coding errors and problems. If you want to help,submit your articles in markdown format in the s3 chat.
