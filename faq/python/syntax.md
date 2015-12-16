@@ -17,8 +17,8 @@ an example.
 
 <br>
 ```
-if true == true:
-    print("True!")
+if True == True:
+    print("Hello World!")
 ```
 <br>
 
