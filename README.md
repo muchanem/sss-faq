@@ -10,7 +10,7 @@ tslnc04*cough*
 ###The Story of the **(near)** Future:
 *Things planned for by the Beta.*
 * ~Some game article~ Somewhat done
-* Some stats available via *data.json*
+* Some stats available via `data.json`
 
 ###The Story of the **(far)** Future:
 *Hopes & Dreams of the future.*
