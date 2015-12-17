@@ -14,5 +14,5 @@ Things planned for by the Beta.
 
 ###The Story of the (far) Future:
 Hopes & Dreams of the future.
-* Ticket Integration with [s3](https://github.com/whitman-colm/sss)
+* Ticket Integration with [S3](https://github.com/whitman-colm/sss)
 * Pictures to help illustrate what to do.
