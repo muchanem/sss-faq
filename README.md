@@ -7,12 +7,12 @@ This is currently FAQ website for frequent coding errors and problems. Problem i
 it! But after beta, releases won't come out every two minutes *cough* 
 tslnc04*cough*
 
-###The Story of the (near) Future:
+###The Story of the **(near)** Future:
 Things planned for by the Beta.
 * ~Some game article~ Somewhat done
-* Some stats available via JSON
+* Some stats available via *data.json*
 
-###The Story of the (far) Future:
-Hopes & Dreams of the future.
+###The Story of the **(far)** Future:
+*Hopes & Dreams of the future.*
 * Ticket Integration with [S3](https://github.com/whitman-colm/sss)
-* Pictures to help illustrate what to do.
+* Pictures to help illustrate steps.
