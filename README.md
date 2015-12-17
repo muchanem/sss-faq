@@ -8,7 +8,7 @@ it! But after beta, releases won't come out every two minutes *cough*
 tslnc04*cough*
 
 ###The Story of the **(near)** Future:
-Things planned for by the Beta.
+*Things planned for by the Beta.*
 * ~Some game article~ Somewhat done
 * Some stats available via *data.json*
 
