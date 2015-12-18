@@ -8,7 +8,7 @@ it!
 
 ### Releases:
 *Requires [SSS Official Website](http://sss.skilstak.io)*
-* Will be stable on [SSS Official Website](http://sss.skilstak.io)
+* Will be stable on [SSS Official Website](http://sss.skilstak.io) *(Not currently working)*
 * Will be experimental on [SSS Surge](http://sss.surge.sh)
 
 
