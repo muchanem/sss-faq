@@ -7,9 +7,9 @@ This is currently FAQ website for frequent coding errors and problems. Problem i
 it!
 
 ### Releases:
-*Requires [](http://sss.skilstak.io)*
-* Will be stable on [](http://sss.skilstak.io)
-* Will be experimental on [](http://sss.surge.sh)
+*Requires [SSS Official Website](http://sss.skilstak.io)*
+* Will be stable on [SSS Official Website](http://sss.skilstak.io)
+* Will be experimental on [SSS Surge](http://sss.surge.sh)
 
 
 ### The Story of the **(somewhat near)** Future:
