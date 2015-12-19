@@ -7,7 +7,7 @@
 
   Once you write your glorious bit of shell magic, you probably want
 to run it. You do this by executing the following commands in the main
-command line.
+command line. **NOTE:** Make sure you have a shebang line.
 
 `chmod +x file`
 This makes it so the computer knows to run it.
