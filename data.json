@@ -1,5 +1,5 @@
 {
-  "version": "β-S-1.0.0",
+  "version": "β-S-1.0.1",
   "build_status": "Stable",
-  "debug": true
+  "change": "Added CC Guide Alert/Banner"
 }

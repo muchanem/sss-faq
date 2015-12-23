@@ -3,8 +3,7 @@ The FAQ website for [SSS](https://github.com/whitman-colm/sss). Developed by the
 
 ### The Story So far:
 This is currently FAQ website for frequent coding errors and problems. Problem is, theres a lot of commmon coding errors and problems. If you want to help,submit your articles in markdown format in the s3 chat.
-**Beta Release:** It's happening on [2015-12-19T17:30:00]. We will do 
-it!
+We had a ***VERY*** good beta release!
 
 ### Releases:
 *Requires [SSS Official Website](http://sss.skilstak.io)*
@@ -16,3 +15,4 @@ it!
 *Hopes & Dreams of the future.*
 * Ticket Integration with [SSS](https://github.com/whitman-colm/sss)
 * Pictures to help illustrate steps.
+* Finished CodeCombat Guide
