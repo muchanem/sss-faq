@@ -1,5 +1,5 @@
 {
-  "version": "β-S-1.0.2",
-  "build_status": "Stable",
-  "change": "Gradually adding in CodeCombat Support"
+  "version": "β-S-1.1.0",
+  "main_version": "S-1.0.0",
+  "change": "Full support added (Actually project incomplete)"
 }
