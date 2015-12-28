@@ -1,5 +1,5 @@
 {
-  "version": "β-E-1.1.3 | Build #3AE",
+  "version": "β-E-1.1.3 | Build #3AF",
   "main_version": "S-1.0.0",
-  "change": "Project partially added"
+  "changelog": "Removed access to CC section"
 }
