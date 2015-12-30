@@ -6,19 +6,27 @@
 ---------------------
 Congratulations! You are now on the 6th level!
 First, let's take a look at your goals.
-``` 
-Basic Syntax, Strings
-```
 ```
 Defeat the ogres.
 Your hero must survive.
 Bonus: no code problems.
 Hint: Attack each ogre by name. Remember, each ogre takes two hits!
 ```
-This level is relatively simple. Remember the ogres automaticly move
+This level is relatively simple. Remember the ogres automatically move
 towards you so you don't even have to move.
+<br>
+**Hint**:use `self.attack("ogrename")` to attack them! Make sure to put `"`
+around the names, because it is a name.
 
 ###Bonus
 <br>
-Just remember to attack each ogre by name and to make sure you code
-does not have any bugs and you have got this in the bag.
+Defining things give one thing a value.
+2 examples are:
+`x = int(1 + 1)`
+<br>
+*int* means integer, or number.
+<br>
+`ogre = "Rig"`
+<br>
+`self.attack(ogre)`
+<br>
