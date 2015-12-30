@@ -19,6 +19,7 @@ commas instead of plus signs.
 transforms the input into a integer. Decimals also use commas.
 <br>
 `print("Your decimal is",decimal)`
+<br>
 ---
 **strings**: The default value is a string. Strings cannot be used in
 calculations, and are just text. To convert something to a string, use 
