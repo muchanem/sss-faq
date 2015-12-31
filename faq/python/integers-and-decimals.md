@@ -18,8 +18,8 @@ print("Your number is ",number)
 print("Your number is " + str(number))
 ```
 ---
-***Floats***: `decimal = float(3) - The `float` function turns
-the integers `3` into the float `3.0`. These are joined the same ways
+***Floats***: `decimal = float(3) - The `float` function turns the
+integer `3` or the string “2.5" into the float `3.0` or `2.5`. These are joined the same ways
 as integers.
 ```
 print("Your decimal is ",decimal)
