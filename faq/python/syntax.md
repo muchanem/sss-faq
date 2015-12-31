@@ -11,9 +11,9 @@ helpful.
 
 `SyntaxError`
 
-In Python, every code block starts with a colon, then is indented four
-spaces, or one tab. Also, in if statements, where you test for equality, you use `==` instead of `=`. Here is
-an example.
+In Python, every code block starts with a colon, and everything in
+that code block is indented one tab (TAB key). Also, in if statements,
+you use `==` instead of `=`. Here is an example.
 
 <br>
 ```
@@ -41,4 +41,3 @@ except KeyboardInterrupt:
   
 Following these rules can save a lot of time debugging for nothing.
 **NOTE:** Python uses `elif` instead of `else if`.
-

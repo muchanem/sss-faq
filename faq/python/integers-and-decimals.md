@@ -1,29 +1,35 @@
 <br>
 <br>
-## Integers and Decimals
+## Strings, Integers, and Floats
 <br>
-#### Faq >> Python >> Integers and Decimals
+#### Faq >> Python >> Strings, Integers, and Floats
 ----------
-There are 3 forms of items in python. Integers, Floating point
+There are 3 forms of items in python, integers, floats
 (decimals), and Strings. 
 <br>
 ---
-**integers**:`number = int(something)` - The int transforms the
-input into a integer. When printing an integer and something else, use
-commas instead of plus signs.
-<br>
-`print("Your number is",number)`
-<br>
+***Integers***: `number = int("3")` - The `int` function turns the string
+into and integer, which is assigned to the variable `number`. Since
+you cannot join different types of values, you can either use commas
+or use the `str()`.
+```
+print("Your number is ",number)
+# Other way
+print("Your number is " + str(number))
+```
 ---
-**floating point**:  `decimal = float(something) - The float
-transforms the input into a integer. Decimals also use commas.
-<br>
-`print("Your decimal is",decimal)`
-<br>
+***Floats***: `decimal = float(3) - The `float` function turns
+the integers `3` into the float `3.0`. These are joined the same ways
+as integers.
+```
+print("Your decimal is ",decimal)
+# Other way
+print("Your decimal is " + float(number))
+```
 ---
-**strings**: The default value is a string. Strings cannot be used in
-calculations, and are just text. To convert something to a string, use 
-`str(something)`
-<br>
-Strings are printed with `""` around the string, because it is a word.
+***Strings***: `text = str(3)` - The `str` function will convert the
+integer `3` to the string `"3"`. Strings are **ALWAYS** wrapped in
+quotes ("" or '') and can hold text. If you use the double quotes, you
+may use single quotes without escaping them and vice versa. If you need to use
+a double quote or a single quote in single quotes, escape it like this `\"` or `\'`.
 

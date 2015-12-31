@@ -13,4 +13,9 @@ Collect the gem.
 Hint: Attack each orge twice
 Hint: Capitalization is important!
 ```
+This level is pretty straightforward. Remember to put quotes around
+the ogre names! 
+**HINT**: You should have 7 to 8 lines of code, depending on whether
+you shortened it or not.
+
 
