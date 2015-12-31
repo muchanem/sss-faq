@@ -1,3 +1,11 @@
--changed true-names and fire-dancing
-added loop-da-loop and haunted kithmaze
-added kithguard mastery (gives no help whatsoever)
+Changed---
+
+true-names and fire-dancing
+Added---
+
+loop-da-loop and haunted kithmaze + the second kithmaze
+kithguard mastery (gives no help whatsoever)
+dread door and known enemy
+WIP---
+
+master of names
