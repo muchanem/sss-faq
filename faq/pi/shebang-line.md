@@ -6,7 +6,7 @@
 ----------------------------------
 
   The Shell Shebang line is an incredibly important line for running
-python files. This is an easy example.
+bash files. This is an easy example.
 
 `#!/bin/sh`
 
