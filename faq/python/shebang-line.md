@@ -13,6 +13,7 @@ python files. This is an easy example.
   This code should be at the top of your python program. Top meaning
 line one. The Shebang line tells your program "Hey, this is Python,
 lets run it as that."
+
   You also need to `chmod` this file. This then says "Hey, you should
 try to run this."
 
