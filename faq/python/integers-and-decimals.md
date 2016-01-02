@@ -24,7 +24,7 @@ as integers.
 ```
 print("Your decimal is ",decimal)
 # Other way
-print("Your decimal is " + float(number))
+print("Your decimal is " + float(decimal))
 ```
 ---
 ***Strings***: `text = str(3)` - The `str` function will convert the
