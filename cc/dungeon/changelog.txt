@@ -2,10 +2,9 @@ Changed---
 
 true-names and fire-dancing
 Added---
-
+master of names
 loop-da-loop and haunted kithmaze + the second kithmaze
 kithguard mastery (gives no help whatsoever)
 dread door and known enemy
-WIP---
+Work in Progress---
 
-master of names
