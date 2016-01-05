@@ -1,5 +1,11 @@
 {
+<<<<<<< HEAD
   "version": "β-S-1.1.6",
   "main_version": "S-1.0.0",
   "changelog": "updated cc, added faq article (merge and edit)"
+=======
+  "version": "β-S-1.1.10",
+  "main_version": "S-1.0.0",
+  "changelog": "updated cc"
+>>>>>>> c00d333e367d53a84da4180e624fe9c959c4cb55
 }
